@@ -73,18 +73,6 @@ Management UI: `http://localhost:15672`
 
 ---
 
-## pgAdmin
-
-Ferramenta visual para gerenciar os bancos PostgreSQL de cada microsserviço.
-
-- Acesso: `http://localhost:5050`
-- Email: `thales@email.com`
-- Senha: `123456`
-
-Cada microsserviço tem seu próprio banco PostgreSQL configurado no respectivo `docker-compose.yml`.
-
----
-
 ## Estrutura
 
 ```
