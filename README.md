@@ -65,11 +65,17 @@ Rastreamento distribuído de requisições entre os microsserviços. Acesso em `
 
 ## RabbitMQ
 
-Credenciais configuradas:
-- Usuário: `bytebank`
-- Senha: `bytebank123`
-
 Management UI: `http://localhost:15672`
+
+---
+
+## pgAdmin
+
+Ferramenta visual para gerenciar os bancos PostgreSQL de cada microsserviço.
+
+- Acesso: `http://localhost:5050`
+
+Cada microsserviço tem seu próprio banco PostgreSQL configurado no respectivo `docker-compose.yml`.
 
 ---
 
